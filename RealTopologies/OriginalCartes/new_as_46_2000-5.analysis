@@ -1,0 +1,271 @@
+// Network topology analysis
+
+// AS network topology analysis
+
+// Graph properties
+is_directed 0
+is_connected 1
+is_a_unique_tree 0
+// Base
+nodes_nb 2000
+edges_nb 2094
+// Degree
+mean_degree 2.094
+max_degree 1807
+degree_exponent -0.751098
+degree_oo 120.494
+degree_acc 0.711011
+degree frequency relative_freq
+1 1681 0.8405
+2 266 0.133
+3 42 0.021
+4 8 0.004
+5 2 0.001
+1807 1 0.0005
+rank_exponent -0.274593
+rank_oo 6.95439
+rank_acc 0.814195
+rank degree id
+1 1807 1
+2 5 71
+3 5 71
+4 4 136
+5 4 136
+6 4 136
+7 4 136
+8 4 136
+9 4 136
+10 4 136
+11 4 136
+12 3 45
+13 3 45
+14 3 45
+15 3 45
+16 3 45
+17 3 45
+18 3 45
+19 3 45
+20 3 45
+mean_clustering_coeff 1.60944
+// Forest
+forest_size 1815
+mesh_size 185
+trees_nb 21
+mean_tree_size 87.4286
+max_tree_size 1789
+tree_size_exponent -4.07407
+tree_size_oo 237.726
+tree_size_acc 0.983258
+tree_size frequency relative_freq
+2 16 0.761905
+3 2 0.0952381
+4 1 0.047619
+5 1 0.047619
+1789 1 0.047619
+tree_rank_exponent -1.29442
+tree_rank_oo 50.8678
+tree_rank_acc 0.7152
+tree_rank tree_size
+1 1789
+2 5
+3 4
+4 3
+5 3
+6 2
+7 2
+8 2
+9 2
+10 2
+11 2
+12 2
+13 2
+14 2
+15 2
+16 2
+17 2
+18 2
+19 2
+20 2
+mean_tree_depth 1.28571
+max_tree_depth 4
+tree_depth_exponent -1.62396
+tree_depth_oo 19
+tree_depth_acc 1
+tree_depth frequency relative_freq
+1 19 0.904762
+4 2 0.0952381
+// Connectivity
+components_nb 1
+cutpoints_nb 157
+mean_cutpoints_degree 13.8153
+max_cutpoints_degree 1807
+cutpoint_degree frequency relative_freq
+2 115 0.732484
+3 34 0.216561
+4 5 0.0318471
+5 2 0.0127389
+1807 1 0.00636943
+bicomponents_nb 1896
+mean_bicomp_size 2.05432
+max_bicomp_size 7
+bicomp_size frequency relative_freq
+2 1816 0.957806
+3 65 0.0342827
+4 10 0.00527426
+5 3 0.00158228
+6 1 0.000527426
+7 1 0.000527426
+bridges_nb 1816
+cycles_nb 80
+// Class
+on_cycle_nodes_nb 185
+on_bridge_nodes_nb 0
+on_branch_nodes_nb 134
+on_leaf_nodes_nb 1681
+// Distance
+mean_dist 2.21265
+median_dist 3.11
+mean_distance frequency relative_freq
+1.11 1 0.0005
+2.1 37 0.0185
+2.11 1770 0.885
+3.1 78 0.039
+3.11 97 0.0485
+4.1 13 0.0065
+5.09 1 0.0005
+5.1 2 0.001
+6.09 1 0.0005
+mean_ecc 6.1035
+eccentricity eccentricity_frequency relative_freq
+5 2 0.001
+6 1808 0.904
+7 174 0.087
+8 13 0.0065
+9 3 0.0015
+diameter 9
+radius 5
+border_size 3
+center_size 2
+// Number of distinct shortest paths per pair
+mean_sp_nb 1.01103
+max_sp_nb 6
+sp_nb_exponent -1
+sp_nb_oo 3.16202e-322
+sp_nb_acc -1
+sp_nb frequency relative_freq
+0 2000 0.00050025
+1 3.9581e+06 0.990019
+2 35846 0.00896598
+3 3970 0.000992996
+4 70 1.75088e-05
+6 18 4.50225e-06
+dist_sp_nb frequency relative_freq
+disj_sp_nb frequency relative_freq
+
+// AS network mesh topology analysis
+
+// Graph properties
+is_directed 0
+is_connected 1
+is_a_unique_tree 0
+// Base
+nodes_nb 185
+edges_nb 279
+// Degree
+mean_degree 3.01622
+max_degree 171
+degree_exponent -0.81582
+degree_oo 51.0326
+degree_acc 0.783834
+degree frequency relative_freq
+2 170 0.918919
+3 9 0.0486486
+4 5 0.027027
+171 1 0.00540541
+rank_exponent -0.214778
+rank_oo 5.29197
+rank_acc 0.578984
+rank degree id
+1 171 0
+2 4 7
+3 4 7
+4 4 7
+5 4 7
+6 4 7
+7 3 19
+8 3 19
+9 3 19
+10 3 19
+11 3 19
+12 3 19
+13 3 19
+14 3 19
+15 3 19
+16 2 1
+17 2 1
+18 2 1
+19 2 1
+20 2 1
+mean_clustering_coeff 4.64395e-310
+// Connectivity
+components_nb 1
+cutpoints_nb 3
+mean_cutpoints_degree 59.3333
+max_cutpoints_degree 171
+cutpoint_degree frequency relative_freq
+3 1 0.333333
+4 1 0.333333
+171 1 0.333333
+bicomponents_nb 81
+mean_bicomp_size 3.2716
+max_bicomp_size 7
+bicomp_size frequency relative_freq
+2 1 0.0123457
+3 65 0.802469
+4 10 0.123457
+5 3 0.037037
+6 1 0.0123457
+7 1 0.0123457
+bridges_nb 1
+cycles_nb 80
+// Class
+on_cycle_nodes_nb 185
+on_bridge_nodes_nb 0
+on_branch_nodes_nb 0
+on_leaf_nodes_nb 0
+// Distance
+mean_dist 2.12156
+median_dist 2.06
+mean_distance frequency relative_freq
+1.07 1 0.00540541
+2.04 3 0.0162162
+2.05 28 0.151351
+2.06 140 0.756757
+3.03 6 0.0324324
+3.04 7 0.0378378
+mean_ecc 3.06486
+eccentricity eccentricity_frequency relative_freq
+2 1 0.00540541
+3 171 0.924324
+4 13 0.0702703
+diameter 4
+radius 2
+border_size 13
+center_size 1
+// Number of distinct shortest paths per pair
+mean_sp_nb 1.11081
+max_sp_nb 6
+sp_nb_exponent -1
+sp_nb_oo 4.64395e-310
+sp_nb_acc -1
+sp_nb frequency relative_freq
+0 185 0.00543478
+1 30792 0.904583
+2 2828 0.0830787
+3 348 0.0102233
+4 56 0.00164512
+6 16 0.000470035
+dist_sp_nb frequency relative_freq
+disj_sp_nb frequency relative_freq
+
+// Time: 0:35:57-31/7/21

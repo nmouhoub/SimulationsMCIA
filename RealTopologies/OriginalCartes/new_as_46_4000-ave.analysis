@@ -1,0 +1,36 @@
+// Graph properties
+vertices_nb 4000
+edges_nb 4443
+mean_degree 2.221
+degree_exponent -2.533
+degree_acc 0.9532
+rank_exponent -0.5568
+rank_acc 0.94
+mesh_size 868.5
+trees_nb 345.6
+tree_size_exponent -2.199
+tree_size_acc 0.9428
+tree_rank_exponent -0.6869
+tree_rank_acc 0.8918
+mean_dist 7.069
+mean_ecc 13.83
+diameter 19.4
+radius 10.5
+sp_nb_exponent -1
+sp_nb_acc -1
+pair_rank_exponent -1
+pair_rank_acc -1
+// Mesh properties
+mean_degree 3.006
+degree_exponent -2.638
+degree_acc 0.9017
+rank_exponent -0.3503
+rank_acc 0.8797
+mean_dist 6.165
+mean_ecc 11.38
+diameter 15.5
+radius 8.5
+sp_nb_exponent -1
+sp_nb_acc -1
+pair_rank_exponent -1
+pair_rank_acc -1
