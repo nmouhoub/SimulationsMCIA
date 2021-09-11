@@ -16,9 +16,9 @@ i=$min_runs
 while [ $i -le $max_runs ]
 do
     ./clear_real_results_runs_n_h_cv_ec.sh "$type" "$i" "$i" "$n" "$h" "$cv" "$ec"
-	./../../Programs/par-sv-sm -i "../../RealTopologies/SampledCartes/${type}_n_${n}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" >> "../../Results/Real/${type}_n_${n}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
+	./../../Programs/par-sv-sm -i "../../RealTopologies/SampledCartes/${type}_n_${n}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" > "../../Results/Real/${type}_n_${n}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
     ./../../Programs/par-sv-tc-sm -i "../../RealTopologies/SampledCartes/${type}_n_${n}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" >> "../../Results/Real/${type}_n_${n}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
-	./../../Programs/par-sv-mp -i "../../RealTopologies/SampledCartes/${type}_n_${n}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" > "../../Results/Real/${type}_n_${n}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
+	./../../Programs/par-sv-mp -i "../../RealTopologies/SampledCartes/${type}_n_${n}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" >> "../../Results/Real/${type}_n_${n}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
 	i=$(( $i + 1 ))
 done
 

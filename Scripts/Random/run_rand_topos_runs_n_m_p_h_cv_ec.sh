@@ -16,9 +16,9 @@ i=$min_runs
 while [ $i -le $max_runs ]
 do
     ./clear_rand_results_runs_n_m_p_h_cv_ec.sh "$i" "$i" "$n" "$m" "$p" "$h" "$cv" "$ec"
-	./../../Programs/par-sv-sm -i "../../RandomTopologies/n_${n}_m_${m}_p_${p}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" >> "../../Results/Random/n_${n}_m_${m}_p_${p}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
+	./../../Programs/par-sv-sm -i "../../RandomTopologies/n_${n}_m_${m}_p_${p}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" > "../../Results/Random/n_${n}_m_${m}_p_${p}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
     ./../../Programs/par-sv-tc-sm -i "../../RandomTopologies/n_${n}_m_${m}_p_${p}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" >> "../../Results/Random/n_${n}_m_${m}_p_${p}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
-	./../../Programs/par-sv-mp -i "../../RandomTopologies/n_${n}_m_${m}_p_${p}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" > "../../Results/Random/n_${n}_m_${m}_p_${p}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
+	./../../Programs/par-sv-mp -i "../../RandomTopologies/n_${n}_m_${m}_p_${p}_topo_${i}.txt" -s "$h" -c "$cv" -e "$ec" >> "../../Results/Random/n_${n}_m_${m}_p_${p}_h_${h}_cv_${cv}_ec_${ec}_topo_${i}.txt"
 	i=$(( $i + 1 ))
 done
 
