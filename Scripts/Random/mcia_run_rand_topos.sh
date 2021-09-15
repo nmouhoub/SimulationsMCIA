@@ -63,7 +63,7 @@ do
   ID="n_${SIZE}_m_${M_ATACH}_p_${PROB}_h_${HEIGHT}_cv_${CONV_COST}_ec_${ENCAP_COST}_topo_${RUN}"
   TASKS=32
   NODES=$(($((SIZE/TASKS))+1))  
-  sbatch -J "$ID" --time "${TIME_RUN_H}:${TIME_RUN_M}:${TIME_RUN_S}" --nodes "$NODES" --tasks-per-node "$TASKS" run_rand_topo_one_run_n_m_p_h_cv_ec.slurm "$RUN" "$SIZE" "M_ATACH" "$PROB" "$STACK_HEIGHT" "$CONV_COST" "$ENCAP_COST"
+  sbatch -J "$ID" --time "${TIME_RUN_H}:${TIME_RUN_M}:${TIME_RUN_S}" --nodes "$NODES" --tasks-per-node "$TASKS" run_rand_topo_one_run_n_m_p_h_cv_ec.slurm "$RUN" "$SIZE" "$M_ATACH" "$PROB" "$STACK_HEIGHT" "$CONV_COST" "$ENCAP_COST"
 	RUN=$(( $RUN + 1 ))
 done
 
