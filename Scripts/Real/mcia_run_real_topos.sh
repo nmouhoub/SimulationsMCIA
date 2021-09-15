@@ -56,7 +56,7 @@ RUN=$MIN_RUN
 
 while [ $RUN -le $MAX_RUN ]
 do
-  ID="${TYPE}_n_${SIZE}_h_${HEIGHT}_cv_${CONV_COST}_ec_${ENCAP_COST}_topo_${RUN}"
+  ID="${TYPE}_n_${SIZE}_h_${STACK_HEIGHT}_cv_${CONV_COST}_ec_${ENCAP_COST}_topo_${RUN}"
   TASKS=32
   NODES=$(($((SIZE/TASKS))+1))  
   sbatch -J "$ID" --time "${TIME_RUN_H}:${TIME_RUN_M}:${TIME_RUN_S}" --nodes "$NODES" --tasks-per-node "$TASKS" run_real_topo_one_run_n_h_cv_ec.slurm "$TYPE" "$RUN" "$SIZE" "$STACK_HEIGHT" "$CONV_COST" "$ENCAP_COST"
